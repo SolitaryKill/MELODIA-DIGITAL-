@@ -1,0 +1,112 @@
+/* Estilo general */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf6f0;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #ffd6e0;
+  text-align: center;
+  padding: 1.5rem 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  background-color: #ffe5ec;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 0 5px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ffcad4;
+  color: #000;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #d55d92;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #666;
+}
+
+/* Piano interactivo */
+.piano {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.key {
+  width: 40px;
+  height: 150px;
+  border: 1px solid #333;
+  margin: 0 2px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.key:active {
+  transform: scale(0.95);
+  background-color: #ffe5ec;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Colores Pasteles | Melodía Digital</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header><h1>🎨 Colores Pasteles</h1><nav><a href="../index.html">Inicio</a></nav></header>
+<main>
+  <section>
+    <h2>Colores Pasteles</h2>
+    <p>
+      Los colores pasteles evocan calma, armonía y alegría. 
+      En Melodía Digital representan la suavidad visual que complementa la experiencia auditiva, 
+      creando una atmósfera tranquila y elegante.
+    </p>
+  </section>
+</main>
+<footer><p>© 2025 Melodía Digital</p></footer>
+</body>
+</html>
